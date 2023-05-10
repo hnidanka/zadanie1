@@ -1,7 +1,7 @@
 # zadanie1
 Rozwiązanie pirwszego zadania
  
- ![image](https://github.com/hnidanka/zadanie1/assets/130184588/5e081876-a7d4-4ded-a926-b33d5fa26e4e)
+
  docker build -t my-server .
 ![image](https://github.com/hnidanka/zadanie1/assets/130184588/fccc8ffc-7fda-4b3d-aa33-c05128d05377)
 
