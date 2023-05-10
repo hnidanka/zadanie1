@@ -1,10 +1,9 @@
 # zadanie1
 Rozwiązanie pirwszego zadania
  
-Dockerfile
-Pierwszy etap budowania aplikacji korzysta z obrazu node:14 i kopiuje pliki aplikacji do katalogu roboczego. Następnie instaluje zależności i wykonuje budowanie aplikacji. Wynikowy plik wykonywalny jest umieszczany w katalogu dist.
-
-Drugi etap korzysta z obrazu node:14-slim i umieszcza w nim tylko te elementy, które są potrzebne do uruchomienia aplikacji. Kopiuje pliki z etapu budowania (używając --from=build), instaluje tylko potrzebne zależności i uruchamia aplikację.
+Dockerfile///
+Pierwszy etap budowania aplikacji korzysta z obrazu node i kopiuje pliki aplikacji do katalogu roboczego. Następnie instaluje zależności i wykonuje budowanie aplikacji. Wynikowy plik wykonywalny jest umieszczany w katalogu dist.
+Drugi etap korzysta z obrazu node:14-slim i umieszcza w nim tylko te elementy, które są potrzebne do uruchomienia aplikacji. Kopiuje pliki z etapu budowania (używając --from=build), instaluje tylko potrzebne zależności i uruchamia aplikację.Co pozwoli na zmniejszenie rozmiaru końcowego obrazu
 
 
  docker build -t zad1ob .
